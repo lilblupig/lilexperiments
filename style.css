@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sunshiney&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400..700&display=swap');
+
+h1 {
+    font-family: "Sunshiney", cursive;
+    font-size: 5em;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: "Delius Swash Caps", cursive;
+}
+
+p {
+    font-family: "Quicksand", serif;
+    font-weight: 500;
+}
+
+.diagonal-box {
+    background-image: linear-gradient(45deg, #00d9ff, #2bff00, #f4ff54,#ff8800, #f700ff);
+    height: 30em;
+    transform: skewY(45deg);
+}
+
+.content {
+    max-width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    transform: skewY(-45deg);
+    text-align: center;
+}
