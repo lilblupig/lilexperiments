@@ -11,33 +11,35 @@
 </head>
 
 <body>
-    <nav>
+    <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
-            <ul id="nav" class="row g-0 inline-item">
-                <li class="col-4 col-sm-3 col-md-2 col-lg-1 list-inline-item logo rotate">
-                    <div class="rotate-inner">
-                        <strong>Curls</strong>
-                    </div>
-                </li>
-                <li class="col-1 list-inline-item blue rotate">
-                    Home
-                </li>
-                <li class="col-1 list-inline-item green rotate">
-                    Science
-                </li>
-                <li class="col-1 list-inline-item yellow rotate">
-                    Hair Types
-                </li>
-                <li class="col-1 list-inline-item orange rotate">
-                    Actions
-                </li>
-                <li class="col-1 list-inline-item pink rotate">
-                    More
-                </li>
-                <li class="offset-2 offset-sm-3 offset-md-4 offset-lg-5 col-1 list-inline-item blue anti-rotate">
-                    Contact Us
-                </li>
-            </ul>
+            <a class="navbar-brand rotate" href="#"><strong>Curls</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item blue rotate">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item green rotate">
+                        <a class="nav-link" href="#">Science</a>
+                    </li>
+                    <li class="nav-item yellow rotate">
+                        <a class="nav-link" href="#">Hair Types</a>
+                    </li>
+                    <li class="nav-item orange rotate">
+                        <a class="nav-link" href="#">Actions</a>
+                    </li>
+                    <li class="nav-item pink rotate">
+                        <a class="nav-link" href="#">More</a>
+                    </li>
+                    <li class="nav-item blue anti-rotate">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
