@@ -38,6 +38,7 @@ h1 {
     font-family: "Sunshiney", cursive;
     font-size: 5rem;
     margin-bottom: 0;
+    letter-spacing: 0.2rem;
 }
 
 h2 {
@@ -52,13 +53,16 @@ nav {
 }
 
 .navbar {
-    padding-top: 0;
+    padding: 0;
+    position: absolute;
+    background-color: #24222000;
 }
 
 .navbar-brand {
     margin: 0;
     padding: 0 1rem;
     font-family: "Sunshiney", cursive;
+    letter-spacing: 0.2rem;
     font-size: 2.5rem;
     background-color: #ffffff;
     border-style: solid;
@@ -114,7 +118,7 @@ nav .container-fluid {
 .hero-container-home {
     height: 100vh;
 
-    background-image: url("../images/hero-home.png");
+    background-image: url("../images/hero-home.jpg");
     background-repeat: no-repeat;
     background-position: top left fixed;
     background-size: cover;
@@ -123,8 +127,7 @@ nav .container-fluid {
     align-items: center;
     justify-content: center;
     text-align: center;
-
-    position: relative;
+    color: #ffffff;
 }
 
 .hero-container-home p {
