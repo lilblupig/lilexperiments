@@ -119,7 +119,7 @@ nav .container-fluid {
 .hero-container-home {
     height: 100vh;
 
-    background: url("../images/hero-home.jpg") no-repeat top left fixed;
+    background: url("../images/hero-home.jpg") no-repeat top left;
     background-size: cover;
 
     display: flex;
